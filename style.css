@@ -1,4 +1,5 @@
 .c1 {
+    /* for index.html anchor tags */
     text-align: center;
     padding: 4px;
     border:2px;
@@ -9,22 +10,54 @@
 }
 
 .cname {
+    /* for form in login page */
     margin: 10px;
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
 .cname1 {
+    /* for form in login page */
     margin: 10px;
 }
 
 .formcss {
-    text-align: center;
+    /* login page */
     background-color: blueviolet;
-    border-radius: 50px;
-    margin: 20px;
+}
+
+fieldset {
+    /* for form in login page */
+    margin: 10px;
+}
+
+legend {
+    /* for form in login page */
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
 }
 
 body {
+    /* for all pages */
     background-color: rgb(211, 234, 163);
+}
+
+.kmh {
+    /* This is for knowme page's heading */
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.kmi {
+    /* for the image in know me page */
+    width: 50%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.kmt {
+    /* for the textarea of know me page */
+    width: 100px;
+    height: 100px;
 }
